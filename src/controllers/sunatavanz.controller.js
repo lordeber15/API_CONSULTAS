@@ -23,7 +23,7 @@ const getRucAvanz = async (req, res) => {
     res
       .status(500)
       .json({
-        error: "Error al consultar Ruc Avanzado:" && error.response?.data,
+        error: "Error al consultar RUC Avanzado:" && error.response?.data,
       });
   }
 };

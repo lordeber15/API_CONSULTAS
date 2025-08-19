@@ -1,7 +1,7 @@
 const app = require("./src/app");
 const sequelize = require("./src/database/database");
 const port = process.env.DB_PORT || 3000;
-
+console.log(port);
 async function main() {
   try {
     await sequelize.sync({ force: false });
